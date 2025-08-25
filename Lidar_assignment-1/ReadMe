@@ -1,0 +1,44 @@
+# LiDAR Point Cloud Processing Assignment
+
+## Task 1: Ground Level Detection
+
+### Dataset 1
+- **Ground Level Value:**  
+The ground value for the first data set was: 61.58
+- **Methodology:** 
+
+![Dataset1 Histogram](plots/histogram_dataset1.png)
+
+### Dataset 2
+- **Ground Level Value:** 
+The ground value for the first data set was: 61.29
+![Dataset2 Histogram](plots/histogram_dataset2.png)
+
+## Task 2: DBSCAN Clustering Optimization
+
+### Dataset 1
+- **Optimal Eps Value:** 
+- **Method Used:** 
+Optimal value for dataset-1 calculated by distance method and plot method was: 3
+![Dataset1 Elbow Plot](plots/plot_elbow_dataset1.png)
+![Dataset1 Clusters](plots/DBSCAN_opt_eps_dataset1.png)
+
+### Dataset 2
+- **Optimal Eps Value:** 
+Optimal value for dataset-2 calculated by distance method and plot method was: 4
+
+![Dataset2 Elbow Plot](plots/plotelbow_dataset2.png)
+![Dataset2 Clusters](plots/DBSCAN_opt_eps_dataset2.png)
+
+
+## Task 3: Largest Cluster (Catenary)
+- **min(x), max(x), min(y), max(y) Values respectively are:**  
+Catenary cluster stats ( minX, maxX, minY, maxY): (27.25, 62.14000000001397, 80.10800000000745, 159.28799999970943)
+
+![Dataset1 Catenary Clusters](plots/catenary_cluster_data1.png)
+
+### Dataset 2
+- **min(x), max(x), min(y), max(y) Values respectively are:** 
+Catenary cluster stats (minX, maxX, minY, maxY): (8.214000000007218, 36.844000000011874, 0.19299999997019768, 79.82699999958277)
+
+![Dataset2 Catenary Clusters](plots/catenary_cluster_data2.png)
